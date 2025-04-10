@@ -110,7 +110,7 @@ int main(){
     printf("O ponto turístico da Carta1 é maior que o ponto turístico da Carta2: %d\n", pontoturistico1 > pontoturistico2);
     printf("A área da Carta1 é maior que a área da Carta2: %d\n", area1 > area2);
     printf("O PIB da Carta1 é maior que o PIB da Carta2: %d\n", pib1 > pib2);
-    printf("A Densidade populacional da Carta1 é maior que a Densidade populacional da Carta2: %d se o resultado for 1, A Carta2 venceu\n", densidade1 > densidade2);
+    printf("A Densidade populacional da Carta1 é maior que a Densidade populacional da Carta2: %d , se o resultado for 1, A Carta2 venceu\n", densidade1 > densidade2);
     printf("O PIB per capta da Carta1 é maior que o PIB per capta da Carta2: %d\n", PPC1 > PPC2);
     printf("A Super poder 1 é maior que o Super poder 2: %d\n", Superpoder1 > Superpoder2);
     
