@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main(){
-    
+
     printf("\nOlá, Mundo!\n");
 
     printf("\nDesafio CartasSuperTrunfo!\n");
-        
+
     printf("\nCarta1:\n");
     char estado1[50];
     char nome1[50];
@@ -23,7 +23,7 @@ int main(){
 
     printf("Digite o nome da cidade:");
     scanf("%s", nome1);
-   
+
     printf("Digite o código:");
     scanf("%s", codigo1);
 
@@ -35,7 +35,7 @@ int main(){
 
     printf("Qual a área da cidade:");
     scanf("%f", &area1);
-   
+
     printf("Qual PIB da cidade:");
     scanf("%f", &pib1);
 
@@ -71,7 +71,7 @@ int main(){
 
     printf("Digite o nome da cidade:");
     scanf("%s", nome2);
-        
+
     printf("Digite o código:");
     scanf("%s", codigo2);
 
@@ -83,7 +83,7 @@ int main(){
 
     printf("Qual a área da cidade:");
     scanf("%f", &area2);
-        
+
     printf("Qual PIB da cidade:");
     scanf("%f", &pib2);
 
@@ -110,10 +110,20 @@ int main(){
     printf("O ponto turístico da Carta1 é maior que o ponto turístico da Carta2: %d\n", pontoturistico1 > pontoturistico2);
     printf("A área da Carta1 é maior que a área da Carta2: %d\n", area1 > area2);
     printf("O PIB da Carta1 é maior que o PIB da Carta2: %d\n", pib1 > pib2);
-    printf("A Densidade populacional da Carta1 é maior que a Densidade populacional da Carta2: %d , se o resultado for 1, A Carta2 venceu\n", densidade1 > densidade2);
+    printf("A Densidade populacional da Carta1 é maior que a Densidade populacional da Carta2: %d se o resultado for 1, A Carta2 venceu\n", densidade1 > densidade2);
     printf("O PIB per capta da Carta1 é maior que o PIB per capta da Carta2: %d\n", PPC1 > PPC2);
     printf("A Super poder 1 é maior que o Super poder 2: %d\n", Superpoder1 > Superpoder2);
+
+    printf("\nPib do Rio de Janeiro é: %.0f\n", pib1);
+    printf("\nPib de São Paulo é: %.0f\n", pib2);
+
+    if(pib1 > pib2){
+        printf("Pib do Rio de janeiro ganhou!\n");
+    }  else  {
+        printf("Pib de São Paulo ganhou!\n");
+    }
+
     
     return 0;
-    
+
 }
